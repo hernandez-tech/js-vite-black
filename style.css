@@ -1,0 +1,38 @@
+html,
+body {
+  background-color: #2f4f30;
+  color: #fff;
+}
+
+.titulo {
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.mesa {
+  margin: 50px 0;
+}
+
+.carta {
+  position: relative;
+  width: 150px;
+  left: 100px;
+  margin-left: -60px;
+}
+
+#jugador-cartas,
+#computadora-cartas {
+  height: 250px;
+}
+
+.textoMensaje {
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
